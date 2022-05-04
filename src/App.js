@@ -6,14 +6,17 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/">
         <Nav />
+        <Hero />
+        
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

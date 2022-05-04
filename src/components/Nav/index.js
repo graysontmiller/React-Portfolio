@@ -12,7 +12,7 @@ function Nav() {
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/about">
                   About
                 </NavLink>
               </li>

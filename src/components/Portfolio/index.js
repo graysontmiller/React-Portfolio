@@ -21,21 +21,18 @@ function Portfolio() {
       deployed: "https://myself-app.herokuapp.com/",
     },
     {
-      name: "MyShelf",
+      name: "Social Network API",
       description:
-        "There is a small community on Reddit that hosts a yearly book reading challenge - Book Bingo. This community don’t even have their own subreddit forum as they operate on the r/Fantasy community. I’ve created an app to host the challenge and make it easier to share their progress with each other. MyShelf allows users to log and store the books that they have read on their very own digital version of the challenge’s bingo card."
+        "A base concept API for a social network that tracks user accounts, friendship status between users, Thoughts posted by users, and Reactions to user Thoughts."
       ,
-      image: "MyShelf.png",
+      image: "social-network-api-screenshot.png",
       technologies: [
-        "React Frontend",
-        "Bootstrap CSS",
-        "GraphQL with Node.js and Express.js server",
-        "MongoDB and the Mongoose ODM database",
-        "Heroku",
-        "JWT for authentication",
+        "Express/Node server",
+        "MongoDB",
+        "Mongoose ODM database",
+        "Nodemon"
       ],
-      github: "https://github.com/graysontmiller/book-bingo/tree/develop",
-      deployed: "https://myself-app.herokuapp.com/",
+      github: "https://github.com/graysontmiller/social-network-api",
     },{
       name: "MyShelf",
       description:

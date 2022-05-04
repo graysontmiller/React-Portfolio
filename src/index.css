@@ -3,7 +3,18 @@ li {
 }
 
 /* Nav */
-.navigation {
+/* .navigation {
+  background-image: url("./assets/img/hero-img.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+/* end of Nav */
+
+/* Image for hero */
+.hero {
   background-image: url("./assets/img/hero-img.png");
   width: 100%;
   height: 500px;
@@ -11,7 +22,7 @@ li {
   background-size: cover;
   background-position: center;
 }
-/* end of Nav */
+/* End Image for hero */
 
 /* About */
 .profile-pic {
